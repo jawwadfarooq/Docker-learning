@@ -1,7 +1,7 @@
 FROM ubuntu:latest 
 ADD HelloWorld.class HelloWorld.class
 RUN apt-get update \
-    && apt-get install -y openjdk-8-jdk 
+    && apt-get install -y default-jre 
     
 #   && apt-get install -y openjdk-8-jdk \     
 #   && rm -rf /var/lib/apt/lists/*
